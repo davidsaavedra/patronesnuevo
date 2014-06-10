@@ -1,0 +1,544 @@
+
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-k4ec1n');
+	src:url('../fonts/icomoon.eot?#iefix-k4ec1n') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-k4ec1n') format('woff'),
+		url('../fonts/icomoon.ttf?-k4ec1n') format('truetype'),
+		url('../fonts/icomoon.svg?-k4ec1n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+header  #cabecera  .cabe{
+width: 600px ;
+margin-left: 8em;
+
+}
+
+header #logo .log
+{
+	width: 140px;
+	height: 100px;
+	float: left;
+}
+
+a{
+
+color: #DD4F24;
+}
+
+body{
+	background: #EFEFEF;
+	font-family: PT Sans;
+	font-size: 16px;
+
+
+}
+
+header #cabecera{
+margin: 0;
+
+}
+
+
+header #avatar {
+ border: 2px solid;
+float: right;
+margin: 1em 1em 0 0 ;
+}
+
+header #avatar figcaption{
+
+	background: #22BCE0;
+	float: right;
+	height: 70px;
+	line-height: 70px;
+
+}
+
+
+header #avatar figcaption:after{
+
+	content: "\e601";
+	font-family: "icomoon";
+	font-size: 0.7em;
+	opacity: 0.5;
+}
+
+
+header  #cabecera img{
+width:440px ;
+margin-left: 0;
+
+}
+
+header #avatar img
+{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+
+header figure, header h1{
+display: inline-block;
+vertical-align: top;
+
+}
+
+
+
+header
+{
+background: 220,220,220;
+color: white;
+margin: 0 ;
+padding: 0.5em ;
+}
+
+
+header #logo img
+{
+	width: 90px;
+	height: 60px;
+	float: left;
+}
+
+
+footer{
+background: #434343;
+color: #A7A7A7;
+padding: 1em 0;
+text-align: center;
+width: 100%;
+
+}
+
+footer p{
+	margin: 0;
+}
+
+nav
+{
+	background: #215196;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+
+
+nav ul{
+list-style: none;
+margin: 0;
+padding: 0; 
+	
+
+
+}
+
+nav ul li {
+
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+		
+
+}
+
+nav ul li a{
+	color: white;
+	display: block;
+	padding: 0.5em 0; 
+	text-decoration: none;
+
+}
+
+nav #inicio a{
+
+float: left;
+margin-left:0;
+background: #215196;
+padding: 0.5em 0.5em;
+position: relative;
+text-decoration:none;
+
+}
+
+nav .inicio_nav a:hover{
+background:#DD4F24;
+
+}
+
+nav .quees_nav a:hover{
+background:#DD4F24;
+}
+
+nav .contacto_nav a:hover{
+background:#DD4F24;
+
+
+}
+
+
+
+
+nav .titulo_nav {
+
+background: #22BCE0;
+color: white;
+text-decoration: none;
+padding-left: 4em;
+padding-right: 3em;
+float: left;
+	
+}
+
+
+nav .publicar_nav{
+	float: right;
+	margin-right:0;
+	background: #DD4F24;
+	padding-right: 0.8em; 
+	position: relative;
+}
+
+nav .publicar_nav:after {
+
+	content: "\e604";
+	font-family: "icomoon";
+	font-size: 1.5em;
+	color: rgba(0,0,0,0.5); 
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+nav .publicar_nav a{
+
+	background: #DD4F24;
+	display: inline-block;
+	padding: 0.5em 1em;
+    text-decoration: none;
+}
+#contenido{
+
+	margin: 1em;
+}
+
+#contenido .vistaforo{
+
+ 	background: white;
+	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+
+}
+#contenido .vistaforo  a{
+ 
+ text-decoration: none;
+
+}
+
+#contenido .vistaforo .guardar_vistaforo:after{
+
+	content: "\e603";
+	font-family: "icomoon";
+	 color: #FD5;
+}
+
+
+#contenido .vistaforo .guardar_vistaforo{
+  margin: 0 1em 0 1em;
+}
+
+#contenido .vistaforo .comentarios_vistaforo{
+ background: #878787;
+ color: white;
+ padding: 4px;
+ border-radius: 4px;
+ margin: 0 0 0 2em;
+
+}
+#contenido .vistaforo p{
+	color: #7A7A7A;
+	font-size: 0.9em
+
+}
+
+#contenido .vistaforo .imagen_vistaforo{
+
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+#contenido .vistaforo .votacion
+{
+background: white;
+border-radius: 0 0 0.5em 0.5em;  
+width: 96px;
+margin: 3px 0 0 0;
+position: absolute;
+top:100%;
+}
+
+#contenido .vistaforo .datos_vistaforo 
+{
+text-align: right;
+
+}
+
+
+#contenido .vistaforo .datos_vistaforo .categoria_vistaforo{
+
+
+background: #22BCE0;
+color: white;
+text-decoration: none;
+padding: 0.2em 0.5em;
+border-radius: 0.5em;
+float: left;
+}
+
+#contenido .vistaforo .imagen_vistaforo img
+{
+	width: 100px;
+	height: 120px;
+}
+
+
+#contenido .vistaforo .titulo_vistaforo{
+
+	font-size: 1.3em;
+	padding: 0.5em 0.5em 0;
+	font-style: italic;
+}
+
+
+#contenido .vistaforo .titulo_vistaforo a{
+
+	color: #444;
+	text-decoration: none;
+
+}
+
+#contenido .vistaforo .votacion a{
+
+	text-decoration: none;
+}
+
+#contenido .vistaforo .votacion .megusta:after {
+content: "\e602";
+font-family: "icomoon";
+font-size: 2em;
+vertical-align: bottom;
+color: green;
+}
+
+
+#formulario{
+
+	
+	margin: 3em;
+
+}
+
+#formulario .registro_formulario{
+
+ 	background: white;
+	border: 3px solid #22BCE0;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 6px;
+	margin-left: auto;
+	margin-right: auto;
+        
+}
+
+
+#formulario .registro_formulario .boton_registro
+{
+
+background: #22BCE0;
+color: white;
+margin-top: 0.5em;
+padding: 0.5em;
+border-radius:20px;
+transition: all is linear;
+
+}
+
+#formulario .registro_formulario .boton_registro:hover
+{
+	border-radius: 0;
+	transform: scale(1);
+}
+
+#foro{
+
+	margin: 1em;
+}
+
+#foro .contenido_foro{
+
+ 	background: white;
+	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+
+
+}
+
+#foro .contenido_foro .titulo_foro{
+         
+text-align: center;
+text-decoration: none;
+
+}
+
+
+#foro .contenido_foro .autor_foro{
+
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#quees{
+
+	margin: 1em;
+}
+
+#quees .contenido_quees{
+
+ 	background: white;
+	border: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	margin-right: 5em;
+	padding-left: 2em;
+	padding-right: 1em;
+	margin-left: 5em;
+	min-height: 240px;
+	
+
+	
+	position: relative;
+}
+
+#quees .contenido_quees .titulo_quees{
+
+	text-align: center;
+}
+
+
+#quees .contenido_quees p {
+
+
+
+
+}
+
+
+#quees .contenido_quees .imagen_q
+{
+
+float: left;
+margin: 0 1em 0 0;
+margin-top: 0.2em;
+font-size: 96px;
+
+}
+
+#contacto .contenido_contacto .titulo_contacto{
+
+	text-align: center;
+}
+
+#contacto .contenido_contacto .mapa{
+
+	
+	border: 3px solid #22BCE0;
+	display: block;
+	margin: auto;
+}
+
+
+#contacto .contenido_contacto .dir{
+
+text-align: center;
+}
+
+
+#contacto .contenido_contacto .tel{
+
+text-align: center;
+}
+
+#contacto .contenido_contacto {
+
+background: white;
+	border: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	margin-top: 1em;
+	margin-right: 5em;
+	padding-left: 2em;
+	padding-right: 1em;
+	margin-left: 5em;
+	min-height: 450px;	
+}
+
+
+#perfil .contenido_perfil {
+	background: white;
+	border: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	margin-right: 5em;
+	padding-left: 2em;
+	padding-right: 1em;
+	margin-left: 5em;
+	min-height: 450px;	
+}
+
+#perfil .contenido_perfil .titulo_perfil{
+	text-align: center;	
+}
+
+#perfil .contenido_perfil .imagen_perfil{
+	float: left;	
+	border: 3px solid #22BCE0;	
+	width: 400px;
+	height: 300px;
+	border-radius: 6px;	
+	padding-left: 2em;
+	padding-right: 1em;
+	margin-bottom: 3em;
+	margin-left: 5em;
+}
+
+
+#perfil .contenido_perfil .datos_perfil{
+	float: right;	
+	border: 3px solid #22BCE0;	
+	width: 400px;
+	height: 300px;
+	border-radius: 6px;	
+	padding-left: 2em;
+	padding-right: 1em;
+	margin-bottom: 3em;
+	margin-right: 5em;
+}
+
+

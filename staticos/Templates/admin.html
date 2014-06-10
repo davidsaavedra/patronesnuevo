@@ -1,0 +1,64 @@
+     
+		<section id="panel">
+                       <div id="contenedor" class="row">
+                        <div class="col col-xs-2" style="padding: 8px; margin-left: 15px;">
+                           <div class="well">
+                                    <span>
+                                    <strong><span  class = "glyphicon glyphicon estrellas" > </span>
+                                    Administrador
+                                    </strong>
+                                        <br>
+                                          <a>David Saavedra</a>
+                                        <br>
+                                    <span class="member-box-links"><a>Perfil</a> | <a>Cerrar Sesión</a></span>
+                                </span>
+                           </div>
+                           <div class="well" style="padding: 8px 0; ">
+                                <ul class="nav nav-list"> 
+                                    <li class="nav-header" style="text-align: center">PANEL</li>        
+                                   <li class="active"><a href="index.php"><i class="icon-home"></i> Inicio</a></li>
+                                   
+                                   <li><a href="#user"><i class="icon-user"></i> Usuarios</a></li>
+                                   <li><a href=""><i class="icon-comment"></i> Estadisticas</a></li>
+                                   <li><a href="#com"><i class="icon-picture"></i> Comentarios</a></li>
+                                   <li><a href="*"><i class="icon-calendar"></i>Otros</a></li>
+                                  
+                                 </ul>
+                           </div>
+                       </div>
+                           
+                       
+                           <div class="col col-xs-9" style="margin-top: 8px">
+
+                             <a name="user" style="font-size: 24px; ">Usuarios </a>
+                          <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered bootstrap-datatable dataTable" id="datatable" aria-describedby="datatable_info">
+                          <thead>
+                              <tr role="row"><th class="header headerSortDown" role="columnheader" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Username: activate to sort column descending" style="width: 183px;">Usuario</th><th class="header" role="columnheader" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Date registered: activate to sort column ascending" style="width: 190px;">Fecha Registro</th><th class="header" role="columnheader" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Role: activate to sort column ascending" style="width: 94px;">Rol</th><th class="header" role="columnheader" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 115px;">Estado</th><th class="header" role="columnheader" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Actions: activate to sort column ascending" style="width: 395px;">Accion</th></tr>
+                          </thead>
+                          
+                      <tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd">
+                                {registros}
+                                <td class="center ">
+                                    <a class="btn btn-success" href="#">
+                                        <i class="icon-zoom-in icon-white"></i>
+                                        Ver
+                                    </a>
+                                    <a class="btn btn-info" href="#">
+                                        <i class="icon-edit icon-white"></i>
+                                        Editar
+                                    </a>
+                                    <a class="btn btn-danger" href="#">
+                                        <i class="icon-trash icon-white"></i>
+                                        Borrar
+                                    </a>
+                                </td>
+                            
+                            </tr></table>
+
+                             
+                       </div>
+
+                </div>
+	</section>
+
+		
